@@ -13,45 +13,118 @@
     <title>Bureau Montagne Reliefs</title>
   </head>
   <body>
+    <!-- Navigation start -->
     <nav id="nav">
-      <div class="nav--container">
-        <a href="#" class="nav--link active">Présentation</a>
-        <a href="#" class="nav--link">Destinations</a>
-        <a href="#" class="nav--link">Activités</a>
-        <a href="#" class="nav--link">Témoignages</a>
-        <a href="#" class="nav--link">Réservation</a>
+      <div class="nav__container">
+        <a href="#presentation" class="nav__link active">Présentation</a>
+        <a href="#destinations" class="nav__link">Destinations</a>
+        <a href="#activites" class="nav__link">Activités</a>
+        <a href="#" class="nav__link">Témoignages</a>
+        <a href="#" class="nav__link">Réservation</a>
       </div>
     </nav>
+    <!-- Navigation end -->
+
+    <!-- Hero start -->
     <header>
       <h1>Bureau Montagne Reliefs</h1>
     </header>
-    <section>
-      <div class="wrap wrap--1">
-        <div class="container container--1"><p>01. Randonnée</p></div>
-      </div>
-      <div class="wrap wrap--2">
-        <div class="container container--2"><p>02. Marche Nordique</p></div>
-      </div>
-      <div class="wrap wrap--3">
-        <div class="container container--3"><p>03. Courses nature</p></div>
-      </div>
-      <div class="wrap wrap--4">
-        <div class="container container--4"><p>04. Raquettes</p></div>
+    <!-- Hero end -->
+
+    <!-- Présentation start -->
+    <section class="section" id="presentation">
+      <div class="section__container">
+        <div class="section__column">
+          <h2 class="headline">Présentation</h2>
+          <h2>Qui sommes nous ?</h2>
+          <p>Il y a tout un monde à découvrir avec Reliefs !</p>
+        </div>
+        <div class="section__column">
+          <h3>Passion et professionnalisme</h3>
+          <p>
+            Reliefs s’est constitué autour de professionnels de la montagne passionnés et engagés auprès de leur
+            clients.
+          </p>
+          <p>
+            Nous nous attachons à partager avec vous le bonheur que nous éprouvons chaque jours à vous faire découvrir
+            ces lieux et ces milieux naturels d’exception qui nous émerveillent.
+          </p>
+          <a href="#" class="--button">Découvrez notre équipe</a>
+        </div>
       </div>
     </section>
-    <footer>
-      <div class="container">
-        <div class="flexbox">
-          <div class="flexbox--item">
-            <h2>N'hésitez plus !</h2>
-            <p>Réservez dés maintenant</p>
-          </div>
-          <div class="flexbox--item">
-            <h2>Suivez nous</h2>
-            <p>Intagram - Facebook</p>
-          </div>
+    <!-- Présentation end -->
+
+    <!-- Destinations start -->
+    <section class="section" id="destinations">
+      <div class="section__container">
+        <div class="section__column">
+          <h2 class="headline">Nos destinations</h2>
+          <!-- Map Embed start -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2894.541393475727!2d5.507254016003179!3d43.49104027912722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c99145abed52d7%3A0x8ff6a95ea37ac052!2s1678%20Rte%20de%20Valbrillant%2C%2013590%20Meyreuil!5e0!3m2!1sfr!2sfr!4v1676872255279!5m2!1sfr!2sfr"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <!-- Map Embed end -->
+        </div>
+        <div class="section__column">
+          <p>
+            Reliefs est une structure atypique donnant un sens nouveau aux traditionnels Bureaux des Accompagnateurs car
+            non reliés par un territoire défini.
+          </p>
+          <p>Notre terrain de jeu couvre un panel de destination directement relié à nos expériences personnelles.</p>
+          <ul>
+            <li>
+              <p>
+                Les massifs alpins comme le Beaufortain, la Vanoise, les Écrins, le Queyras, l’Ubaye et le Mercantour.
+              </p>
+            </li>
+            <li><p>Les préalpes avec le Verdon et les Monges.</p></li>
+            <li><p>Les massifs provençaux avec la Sainte Victoire et les Calanques.</p></li>
+            <li><p>Les massifs provençaux avec la Sainte Victoire et les Calanques.</p></li>
+            <li><p>Mais aussi les Vosges, le Jura, le Massif Central et les Pyrénées sont nos terrains de jeux.</p></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Destinations end -->
+
+    <!-- Activités start -->
+    <section class="section" id="activites">
+      <!-- TODO: Titre -->
+      <div class="grid__wrapper">
+        <div class="wrap wrap--1">
+          <div class="container container--1"><p>01. Randonnée</p></div>
+        </div>
+        <div class="wrap wrap--2">
+          <div class="container container--2"><p>02. Marche Nordique</p></div>
+        </div>
+        <div class="wrap wrap--3">
+          <div class="container container--3"><p>03. Courses nature</p></div>
+        </div>
+        <div class="wrap wrap--4">
+          <div class="container container--4"><p>04. Raquettes</p></div>
+        </div>
+      </div>
+    </section>
+    <!-- Activités end -->
+
+    <!-- Footer start -->
+    <footer class="section">
+      <div class="section__container">
+        <div class="section__column">
+          <h2>N'hésitez plus !</h2>
+          <p>Réservez dés maintenant</p>
+        </div>
+        <div class="section__column">
+          <h2>Suivez nous !</h2>
+          <p><a href="#">Instagram</a> - <a href="#">Facebook</a></p>
         </div>
       </div>
     </footer>
+    <!-- Footer end -->
   </body>
 </html>

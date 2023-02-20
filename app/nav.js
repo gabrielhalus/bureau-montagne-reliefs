@@ -1,7 +1,6 @@
 class navbarEffect {
   constructor({ element, links }) {
     this.element = element;
-    this.links = element.querySelectorAll('.nav--links');
 
     this.handleStateToggle = this.handleStateToggle.bind(this);
     this.defaultStates = this.defaultStates.bind(this);

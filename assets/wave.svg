@@ -1,1 +1,11 @@
-<?xml version="1.0" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fafafa" fill-opacity="1" d="M0,128L60,149.3C120,171,240,213,360,224C480,235,600,213,720,170.7C840,128,960,64,1080,48C1200,32,1320,64,1380,80L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 276.36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fafafa;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="m0,84.36l60,21.3c60,21.7,180,63.7,300,74.7s240-11,360-53.3c120-42.7,240-106.7,360-122.7s240,16,300,32l60,16v224H0V84.36Z"/>
+</svg>
